@@ -136,6 +136,5 @@ void finish_menu(RenderWindow& window)
 		window.draw(menu3);
 
 		window.display();
-
 	}
 }

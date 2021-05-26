@@ -15,4 +15,5 @@ View GetPlayerCoordinateForView(float x, float y)
 	view.setCenter(tempX, tempY);
 
 	return view;
+
 }

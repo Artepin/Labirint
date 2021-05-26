@@ -13,4 +13,5 @@ Sprite s_quest;
 s_quest.setTexture(quest_texture);
 s_quest.setTextureRect(IntRect(0, 0, 340, 510));  //приведение типов, размеры картинки исходные
 s_quest.setScale(0.6f, 0.6f);//чуть уменьшили картинку, => размер стал меньше
+
 }

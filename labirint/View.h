@@ -4,3 +4,4 @@
 using namespace sf;
 sf::View view;
 View GetPlayerCoordinateForView(float x, float y);
+

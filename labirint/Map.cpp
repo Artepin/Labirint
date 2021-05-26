@@ -2,7 +2,6 @@
 const int HEIGHT_MAP = 29;
 const int WIDTH_MAP = 56;
 
-
 sf::String TileMap[HEIGHT_MAP] = {
 	"00000000000000000000000000000000000000000000000000000000",
 	"0                  ss        ss            ss          0",

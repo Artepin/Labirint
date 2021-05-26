@@ -35,4 +35,5 @@ public:
 		return y;
 	}
 	void update(float time);
+
 };
