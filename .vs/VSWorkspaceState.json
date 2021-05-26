@@ -1,6 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\labirint",
+    "\\labirint\\debug"
   ],
+  "SelectedNode": "\\labirint\\debug\\readme.md",
   "PreviewInSolutionExplorer": false
 }
