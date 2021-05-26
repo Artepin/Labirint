@@ -34,4 +34,5 @@ public:
 	float getplayercoordinateY() {
 		return y;
 	}
+	void update(float time);
 };
