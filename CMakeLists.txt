@@ -5,7 +5,6 @@ set(CMAKE_CXX_STANDARD 14)
 
 include_directories(labirint)
 
-add_executable(Labirint_git
         labirint/InfoImage.cpp
         labirint/Main.cpp
         labirint/Map.cpp
