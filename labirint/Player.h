@@ -15,5 +15,6 @@ private:
 public:
 	static int dir;
 	Player(float x, float y, float w, float h, float speed, int dir, float dx, float dy);
-	void update(float time)
+	void update(float time);
+	//void interactionWithMap();
 };

@@ -1,7 +1,44 @@
 ﻿  Main.cpp
-C:\OneDrive\Github\Labirint_git\labirint\Player.h(19,1): error C2143: синтаксическая ошибка: отсутствие ";" перед "}"
-C:\OneDrive\Github\Labirint_git\labirint\Main.cpp(25,2): error C3861: interactionWithMap: идентификатор не найден
-C:\OneDrive\Github\Labirint_git\labirint\Main.cpp(26,35): error C2065: death: необъявленный идентификатор
+C:\OneDrive\Github\Labirint_git\labirint\Map.h(8,14): error C2039: "interactionWithMap": не является членом "Player".
+C:\OneDrive\Github\Labirint_git\labirint\Player.h(4): message : см. объявление "Player"
+  Map.cpp
+C:\OneDrive\Github\Labirint_git\labirint\Map.cpp(41,15): error C2065: y: необъявленный идентификатор
+C:\OneDrive\Github\Labirint_git\labirint\Map.cpp(41,28): error C2065: y: необъявленный идентификатор
+C:\OneDrive\Github\Labirint_git\labirint\Map.cpp(41,32): error C2065: h: необъявленный идентификатор
+C:\OneDrive\Github\Labirint_git\labirint\Map.cpp(42,16): error C2065: x: необъявленный идентификатор
+C:\OneDrive\Github\Labirint_git\labirint\Map.cpp(42,29): error C2065: x: необъявленный идентификатор
+C:\OneDrive\Github\Labirint_git\labirint\Map.cpp(42,33): error C2065: w: необъявленный идентификатор
+C:\OneDrive\Github\Labirint_git\labirint\Map.cpp(46,9): error C2065: dy: необъявленный идентификатор
+C:\OneDrive\Github\Labirint_git\labirint\Map.cpp(48,6): error C2065: y: необъявленный идентификатор
+C:\OneDrive\Github\Labirint_git\labirint\Map.cpp(48,19): error C2065: w: необъявленный идентификатор
+C:\OneDrive\Github\Labirint_git\labirint\Map.cpp(50,9): error C2065: dy: необъявленный идентификатор
+C:\OneDrive\Github\Labirint_git\labirint\Map.cpp(52,10): error C2065: y: необъявленный идентификатор
+C:\OneDrive\Github\Labirint_git\labirint\Map.cpp(54,7): error C2065: y: необъявленный идентификатор
+C:\OneDrive\Github\Labirint_git\labirint\Map.cpp(54,20): error C2065: h: необъявленный идентификатор
+C:\OneDrive\Github\Labirint_git\labirint\Map.cpp(58,7): error C2065: y: необъявленный идентификатор
+C:\OneDrive\Github\Labirint_git\labirint\Map.cpp(61,9): error C2065: dx: необъявленный идентификатор
+C:\OneDrive\Github\Labirint_git\labirint\Map.cpp(63,6): error C2065: x: необъявленный идентификатор
+C:\OneDrive\Github\Labirint_git\labirint\Map.cpp(63,19): error C2065: h: необъявленный идентификатор
+C:\OneDrive\Github\Labirint_git\labirint\Map.cpp(65,9): error C2065: dx: необъявленный идентификатор
+C:\OneDrive\Github\Labirint_git\labirint\Map.cpp(67,10): error C2065: x: необъявленный идентификатор
+C:\OneDrive\Github\Labirint_git\labirint\Map.cpp(69,7): error C2065: x: необъявленный идентификатор
+C:\OneDrive\Github\Labirint_git\labirint\Map.cpp(73,7): error C2065: x: необъявленный идентификатор
+C:\OneDrive\Github\Labirint_git\labirint\Map.cpp(80,9): error C2065: dy: необъявленный идентификатор
+C:\OneDrive\Github\Labirint_git\labirint\Map.cpp(82,6): error C2065: y: необъявленный идентификатор
+C:\OneDrive\Github\Labirint_git\labirint\Map.cpp(82,19): error C2065: w: необъявленный идентификатор
+C:\OneDrive\Github\Labirint_git\labirint\Map.cpp(85,9): error C2065: dy: необъявленный идентификатор
+C:\OneDrive\Github\Labirint_git\labirint\Map.cpp(87,10): error C2065: y: необъявленный идентификатор
+C:\OneDrive\Github\Labirint_git\labirint\Map.cpp(89,7): error C2065: y: необъявленный идентификатор
+C:\OneDrive\Github\Labirint_git\labirint\Map.cpp(89,20): error C2065: h: необъявленный идентификатор
+C:\OneDrive\Github\Labirint_git\labirint\Map.cpp(94,9): error C2065: dx: необъявленный идентификатор
+C:\OneDrive\Github\Labirint_git\labirint\Map.cpp(96,6): error C2065: x: необъявленный идентификатор
+C:\OneDrive\Github\Labirint_git\labirint\Map.cpp(96,19): error C2065: h: необъявленный идентификатор
+C:\OneDrive\Github\Labirint_git\labirint\Map.cpp(99,9): error C2065: dx: необъявленный идентификатор
+C:\OneDrive\Github\Labirint_git\labirint\Map.cpp(101,10): error C2065: x: необъявленный идентификатор
+C:\OneDrive\Github\Labirint_git\labirint\Map.cpp(103,7): error C2065: x: необъявленный идентификатор
+C:\OneDrive\Github\Labirint_git\labirint\Map.cpp(112,5): error C2065: health: необъявленный идентификатор
+C:\OneDrive\Github\Labirint_git\labirint\Map.cpp(117,5): error C2065: health: необъявленный идентификатор
+C:\OneDrive\Github\Labirint_git\labirint\Map.cpp(123,5): error C2065: finish_line: необъявленный идентификатор
   Player.cpp
 C:\OneDrive\Github\Labirint_git\labirint\Player.cpp(42,25): error C2535: void Player::update(float): функция-член уже определена или объявлена
 C:\OneDrive\Github\Labirint_git\labirint\Player.cpp(18): message : см. объявление "Player::update"

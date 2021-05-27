@@ -23,7 +23,7 @@ void Player::update(float time)
 	speed = 0;
 	sprite.setPosition(x, y);
 	interactionWithMap();
-	if (health <= 0) { life = false; death = true; }//если жизней меньше либо равно 0, то умираем 
+	if (health <= 0) { life = false;}//если жизней меньше либо равно 0, то умираем 
 
 }
 

@@ -40,5 +40,5 @@ public:
 	}
 
 	void update(float time);
-
+	//void interactionWithMap();
 };
