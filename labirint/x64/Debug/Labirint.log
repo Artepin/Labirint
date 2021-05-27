@@ -1,0 +1,18 @@
+﻿  Main.cpp
+C:\OneDrive\Github\Labirint_git\labirint\Player.h(19,1): error C2143: синтаксическая ошибка: отсутствие ";" перед "}"
+C:\OneDrive\Github\Labirint_git\labirint\Main.cpp(25,2): error C3861: interactionWithMap: идентификатор не найден
+C:\OneDrive\Github\Labirint_git\labirint\Main.cpp(26,35): error C2065: death: необъявленный идентификатор
+  Player.cpp
+C:\OneDrive\Github\Labirint_git\labirint\Player.cpp(42,25): error C2535: void Player::update(float): функция-член уже определена или объявлена
+C:\OneDrive\Github\Labirint_git\labirint\Player.cpp(18): message : см. объявление "Player::update"
+C:\OneDrive\Github\Labirint_git\labirint\Player.cpp(33,42): warning C4244: аргумент: преобразование "float" в "T", возможна потеря данных
+          with
+          [
+              T=int
+          ]
+C:\OneDrive\Github\Labirint_git\labirint\Player.cpp(33,39): warning C4244: аргумент: преобразование "float" в "T", возможна потеря данных
+          with
+          [
+              T=int
+          ]
+  Создание кода...
