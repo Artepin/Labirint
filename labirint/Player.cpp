@@ -9,15 +9,17 @@ private:
 	String File;
 	Image image;
 	Texture texture;
-	Sprite sprite;
+	
 public:
+	Sprite sprite;
 	static int dir;
 	float x, y, w, h, speed, dx, dy;
 	int health;
 	bool life;
 	void update(float time);
+	bool finish_line = false;
 	
-	Player(float x, float y, float w, float h, float speed, float dir, float dx, float dy)
+	Player(String F, float x, float y, float w, float h)
 	{
 		dir = 0;
 		speed = 0;
