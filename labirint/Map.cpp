@@ -35,9 +35,8 @@ sf::String TileMap[HEIGHT_MAP] = {
 	"00000000000000000000000000000ww0000000000000000000000000",
 };
 
-void interactionWithMap()
+void Player::interactionWithMap()
 {
-
 	for (int i = y / 32; i < (y + h) / 32; i++)
 		for (int j = x / 32; j < (x + w) / 32; j++)
 		{

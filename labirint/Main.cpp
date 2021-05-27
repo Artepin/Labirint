@@ -55,4 +55,9 @@ bool startGame()
 	s_quest.setTexture(quest_texture);
 	s_quest.setTextureRect(IntRect(0, 0, 340, 510));  //приведение типов, размеры картинки исходные
 	s_quest.setScale(0.6f, 0.6f);//чуть уменьшили картинку, => размер стал меньше
+
+	Player p("images/hero_2.png", 250, 250, 32.0, 32.0);
+
+	bool showMissionText = true;//логическая переменная, отвечающая за появление текста миссии на экране
+	bool life = true;
 }

@@ -6,4 +6,4 @@ const int WIDTH_MAP = 56;
 
 
 sf::String TileMap[HEIGHT_MAP];
-void interactionWithMap();
+void Player::interactionWithMap();
