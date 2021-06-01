@@ -8,8 +8,9 @@ private:
 	String File;
 	Image image;
 	Texture texture;
-	Sprite sprite;
+	
 public:
+	Sprite sprite;
 	float x, y, w, h, speed, dx, dy;
 	int health;
 	bool life;

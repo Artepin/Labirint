@@ -4,6 +4,7 @@
 #include "Map.h"
 #include "Menu.h"
 #include "View.h"
+#include "Mission.h"
 
 using namespace sf;
 
@@ -199,10 +200,6 @@ bool startGame()
 			}
 
 		window.display();
-
-
-
-
 
 	}
 }
