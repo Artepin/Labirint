@@ -1,21 +1,7 @@
-#include <SFML\Graphics.hpp>
-
-using namespace sf;
-
-class Player
-{
-private:
-	float x, y, w, h, speed, dx, dy;
-	int health;
-	int dir;
-	bool life;
-	String File;
-	Image image;
-	Texture texture;
-	Sprite sprite;
-public:
-	Player(float x, float y, float w, float h, float speed, float dir, float dx, float dy)
+#include "Player.h"
+	Player::Player(String F, float x, float y, float w, float h)
 	{
+		dir = 0;
 		speed = 0;
 		dx = 0;
 		dy = 0;
@@ -28,12 +14,9 @@ public:
 		sprite.setTexture(texture);
 		sprite.setTextureRect(IntRect(0, 0, w, h));
 	}
-	float getplayercoordinateX() {
+	float Player::getplayercoordinateX() {
 		return x;
 	}
-	float getplayercoordinateY() {
+	float Player::getplayercoordinateY() {
 		return y;
 	}
-	void update(float time);
-
-};

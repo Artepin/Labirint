@@ -1,0 +1,72 @@
+﻿  Main.cpp
+C:\OneDrive\Github\Labirint_git\labirint\Player.h(25,25): error C2535: void Player::update(float): функция-член уже определена или объявлена
+C:\OneDrive\Github\Labirint_git\labirint\Player.h(19): message : см. объявление "Player::update"
+C:\OneDrive\Github\Labirint_git\labirint\Player.h(6,1): error C2011: Player: переопределение типа "class"
+C:\OneDrive\Github\Labirint_git\labirint\Player.h(5): message : см. объявление "Player"
+C:\OneDrive\Github\Labirint_git\labirint\Main.cpp(15,14): error C2027: использование неопределенного типа "Player"
+C:\OneDrive\Github\Labirint_git\labirint\Player.h(5): message : см. объявление "Player"
+C:\OneDrive\Github\Labirint_git\labirint\Main.cpp(17,10): error C2065: dir: необъявленный идентификатор
+C:\OneDrive\Github\Labirint_git\labirint\Main.cpp(18,2): error C2050: значение выражения для варианта выбора не является целым
+C:\OneDrive\Github\Labirint_git\labirint\Main.cpp(19,10): error C2065: dx: необъявленный идентификатор
+C:\OneDrive\Github\Labirint_git\labirint\Main.cpp(19,15): error C2065: speed: необъявленный идентификатор
+C:\OneDrive\Github\Labirint_git\labirint\Main.cpp(19,22): error C2065: dy: необъявленный идентификатор
+C:\OneDrive\Github\Labirint_git\labirint\Main.cpp(20,10): error C2065: dx: необъявленный идентификатор
+C:\OneDrive\Github\Labirint_git\labirint\Main.cpp(20,16): error C2065: speed: необъявленный идентификатор
+C:\OneDrive\Github\Labirint_git\labirint\Main.cpp(20,23): error C2065: dy: необъявленный идентификатор
+C:\OneDrive\Github\Labirint_git\labirint\Main.cpp(21,10): error C2065: dx: необъявленный идентификатор
+C:\OneDrive\Github\Labirint_git\labirint\Main.cpp(21,18): error C2065: dy: необъявленный идентификатор
+C:\OneDrive\Github\Labirint_git\labirint\Main.cpp(21,23): error C2065: speed: необъявленный идентификатор
+C:\OneDrive\Github\Labirint_git\labirint\Main.cpp(22,10): error C2065: dx: необъявленный идентификатор
+C:\OneDrive\Github\Labirint_git\labirint\Main.cpp(22,18): error C2065: dy: необъявленный идентификатор
+C:\OneDrive\Github\Labirint_git\labirint\Main.cpp(22,24): error C2065: speed: необъявленный идентификатор
+C:\OneDrive\Github\Labirint_git\labirint\Main.cpp(26,2): error C2065: x: необъявленный идентификатор
+C:\OneDrive\Github\Labirint_git\labirint\Main.cpp(26,7): error C2065: dx: необъявленный идентификатор
+C:\OneDrive\Github\Labirint_git\labirint\Main.cpp(27,2): error C2065: y: необъявленный идентификатор
+C:\OneDrive\Github\Labirint_git\labirint\Main.cpp(27,7): error C2065: dy: необъявленный идентификатор
+C:\OneDrive\Github\Labirint_git\labirint\Main.cpp(28,2): error C2065: speed: необъявленный идентификатор
+C:\OneDrive\Github\Labirint_git\labirint\Main.cpp(29,2): error C2065: sprite: необъявленный идентификатор
+C:\OneDrive\Github\Labirint_git\labirint\Main.cpp(29,21): error C2065: x: необъявленный идентификатор
+C:\OneDrive\Github\Labirint_git\labirint\Main.cpp(29,24): error C2065: y: необъявленный идентификатор
+C:\OneDrive\Github\Labirint_git\labirint\Main.cpp(30,2): error C3861: interactionWithMap: идентификатор не найден
+C:\OneDrive\Github\Labirint_git\labirint\Main.cpp(31,6): error C2065: health: необъявленный идентификатор
+C:\OneDrive\Github\Labirint_git\labirint\Main.cpp(31,21): error C2065: life: необъявленный идентификатор
+C:\OneDrive\Github\Labirint_git\labirint\Main.cpp(64,9): error C2079: "p" использует не имеющую определения структуру class "Player"
+C:\OneDrive\Github\Labirint_git\labirint\Main.cpp(64,53): error C2440: инициализация: невозможно преобразовать "initializer list" в "int"
+C:\OneDrive\Github\Labirint_git\labirint\Main.cpp(64,10): message : Инициализатор содержит слишком много элементов
+C:\OneDrive\Github\Labirint_git\labirint\Main.cpp(77,14): warning C4244: инициализация: преобразование "sf::Int64" в "float", возможна потеря данных
+C:\OneDrive\Github\Labirint_git\labirint\Main.cpp(79,66): warning C4244: =: преобразование "float" в "int", возможна потеря данных
+C:\OneDrive\Github\Labirint_git\labirint\Main.cpp(79,93): warning C4305: аргумент: усечение из "double" в "float"
+C:\OneDrive\Github\Labirint_git\labirint\Main.cpp(130,33): warning C4244: +=: преобразование "double" в "float", возможна потеря данных
+C:\OneDrive\Github\Labirint_git\labirint\Main.cpp(138,33): warning C4244: +=: преобразование "double" в "float", возможна потеря данных
+C:\OneDrive\Github\Labirint_git\labirint\Main.cpp(146,33): warning C4244: +=: преобразование "double" в "float", возможна потеря данных
+C:\OneDrive\Github\Labirint_git\labirint\Main.cpp(154,33): warning C4244: +=: преобразование "double" в "float", возможна потеря данных
+C:\OneDrive\Github\Labirint_git\labirint\Main.cpp(158,81): error C2660: GetPlayerCoordinateForView: функция не принимает 1 аргументов
+C:\OneDrive\Github\Labirint_git\labirint\View.h(6,6): message : см. объявление "GetPlayerCoordinateForView"
+C:\OneDrive\Github\Labirint_git\labirint\Main.cpp(193,33): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+C:\OneDrive\Github\Labirint_git\labirint\Main.cpp(193,25): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+  Map.cpp
+C:\OneDrive\Github\Labirint_git\labirint\Player.h(25,25): error C2535: void Player::update(float): функция-член уже определена или объявлена
+C:\OneDrive\Github\Labirint_git\labirint\Player.h(19): message : см. объявление "Player::update"
+C:\OneDrive\Github\Labirint_git\labirint\Map.cpp(41,13): warning C4244: инициализация: преобразование "float" в "int", возможна потеря данных
+C:\OneDrive\Github\Labirint_git\labirint\Map.cpp(42,14): warning C4244: инициализация: преобразование "float" в "int", возможна потеря данных
+C:\OneDrive\Github\Labirint_git\labirint\Map.cpp(69,18): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+C:\OneDrive\Github\Labirint_git\labirint\Map.cpp(103,18): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+  Menu.cpp
+C:\OneDrive\Github\Labirint_git\labirint\Menu.cpp(68,6): warning C4551: в вызове функции отсутствует список аргументов
+C:\OneDrive\Github\Labirint_git\labirint\Menu.cpp(71,10): warning C4552: "-": результат выражения не используется
+C:\OneDrive\Github\Labirint_git\labirint\Menu.cpp(73,6): warning C4551: в вызове функции отсутствует список аргументов
+C:\OneDrive\Github\Labirint_git\labirint\Menu.cpp(91,7): warning C4101: startGame: неиспользованная локальная переменная
+  Player.cpp
+C:\OneDrive\Github\Labirint_git\labirint\Player.h(25,25): error C2535: void Player::update(float): функция-член уже определена или объявлена
+C:\OneDrive\Github\Labirint_git\labirint\Player.h(19): message : см. объявление "Player::update"
+C:\OneDrive\Github\Labirint_git\labirint\Player.cpp(15,42): warning C4244: аргумент: преобразование "float" в "T", возможна потеря данных
+          with
+          [
+              T=int
+          ]
+C:\OneDrive\Github\Labirint_git\labirint\Player.cpp(15,39): warning C4244: аргумент: преобразование "float" в "T", возможна потеря данных
+          with
+          [
+              T=int
+          ]
+  Создание кода...
