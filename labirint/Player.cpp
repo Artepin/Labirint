@@ -5,23 +5,17 @@ using namespace sf;
 class Player
 {
 private:
-
+	float x, y, w, h, speed, dx, dy;
+	int health;
+	int dir;
+	bool life;
 	String File;
 	Image image;
 	Texture texture;
-	
-public:
 	Sprite sprite;
-	static int dir;
-	float x, y, w, h, speed, dx, dy;
-	int health;
-	bool life;
-	void update(float time);
-	bool finish_line = false;
-	
-	Player(String F, float x, float y, float w, float h)
+public:
+	Player(float x, float y, float w, float h, float speed, float dir, float dx, float dy)
 	{
-		dir = 0;
 		speed = 0;
 		dx = 0;
 		dy = 0;
@@ -40,7 +34,6 @@ public:
 	float getplayercoordinateY() {
 		return y;
 	}
-
 	void update(float time);
-	void interactionWithMap();
+
 };

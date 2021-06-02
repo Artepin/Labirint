@@ -33,9 +33,6 @@
     <ClCompile Include="View.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="Mission.cpp">
-      <Filter>Исходные файлы</Filter>
-    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Player.h">
@@ -48,9 +45,6 @@
       <Filter>Исходные файлы</Filter>
     </ClInclude>
     <ClInclude Include="View.h">
-      <Filter>Исходные файлы</Filter>
-    </ClInclude>
-    <ClInclude Include="Mission.h">
       <Filter>Исходные файлы</Filter>
     </ClInclude>
   </ItemGroup>

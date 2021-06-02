@@ -147,14 +147,12 @@
     <ClCompile Include="Main.cpp" />
     <ClCompile Include="Map.cpp" />
     <ClCompile Include="Menu.cpp" />
-    <ClCompile Include="Mission.cpp" />
     <ClCompile Include="Player.cpp" />
     <ClCompile Include="View.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Map.h" />
     <ClInclude Include="Menu.h" />
-    <ClInclude Include="Mission.h" />
     <ClInclude Include="Player.h" />
     <ClInclude Include="View.h" />
   </ItemGroup>

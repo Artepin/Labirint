@@ -1,3 +1,0 @@
-C:/OneDrive/Github/Labirint_git/cmake-build-debug/CMakeFiles/Labirint_git.dir
-C:/OneDrive/Github/Labirint_git/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/OneDrive/Github/Labirint_git/cmake-build-debug/CMakeFiles/rebuild_cache.dir
