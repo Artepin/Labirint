@@ -8,7 +8,7 @@
 		speed = 0;
 		health = 0;
 		life = true;
-		image.loadFromFile("images/" + File);
+		image.loadFromFile("images/" + F);
 		image.createMaskFromColor(Color(255, 255, 255));
 		texture.loadFromImage(image);
 		sprite.setTexture(texture);

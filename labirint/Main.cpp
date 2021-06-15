@@ -12,8 +12,6 @@
 
 using namespace sf;
 
-
-
 bool startGame()
 {
 	RenderWindow window(VideoMode(1300, 700), "Labirint");
