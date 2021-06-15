@@ -1,4 +1,5 @@
 #include <iostream>
+#include <sstream>
 #include <SFML/Graphics.hpp>
 #include "Mission.h"
 #include "View.h"
